@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>product-detail-page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Fonts CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./fonts/stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--navbar-->
+<header>
+        <nav class="navbar navbar-expand-lg nav-two fixed-top">
+              <div class="container">
+                <a class="navbar-brand" href="#">
+                  <img src="./img/logo-zoeken.png" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                  <i class="bi bi-list "></i>
+                </button>
+                <div class="collapse navbar-collapse flex-column align-items-end" id="collapsibleNavbar"> 
+                  <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">OVER LIFESTYLE</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#referenties">DEALERS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">TIPS & INFO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">ONZE PRODUCTEN</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"> <img src="./img/navbar-magnifier.png" class="img-fluid"></a></li>
+                  </ul>
+                </div>
+              </div>
+        </nav>
+
+<!--header-image-->
+<div class="head-img-two">
+    <!--form-dealer-->
+    <div class="container-fluid px-0">
+        <div class="container customer">
+          <div class="row justify-content-center">
+            <div class="col-xl-12">
+              <form class="form-content ">
+                <label for="code" class="form-label ps-3 
+                form-title-dealer">ZOEK EEN DEALER IN DE BUURT </label>
+                <div class="layout-form-dealer pt-3 ps-3 pe-3 ">
+                  <div class="row">
+                    <div class="col-lg-3">
+                      <input type="text" class="form-control rounded-0 Plaatsnaam " id="text"
+                        placeholder="Plaatsnaam, postcode.." name="email">
+                    </div>
+                    <div class="col-lg-7 mt-lg-0 mt-2 d-lg-flex">
+                      <div>
+                        <select class="form-select rounded-0   ms-lg-3" aria-label="Default select example">
+                          <option selected>0 km</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                      </div>
+                      <div class="dealer-font-two d-lg-flex ps-lg-5 mt-lg-0 mt-2">
+                        <div class="form-check">
+                          <input class="form-check-input rounded-0" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Zonwering
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input rounded-0 " type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Gordijnen
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input rounded-0" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Karpetten
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input rounded-0 " type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Laminaat
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input rounded-0" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Project
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input rounded-0 " type="checkbox" value="" id="flexCheckDefault" >
+                          <label class="form-check-label" for="flexCheckDefault">
+                            PVC
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input rounded-0" type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Tapijt
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input rounded-0 " type="checkbox" value="" id="flexCheckDefault">
+                          <label class="form-check-label" for="flexCheckDefault">
+                            Vinyl
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-2">
+                      <div class="pb-3">
+                        <button type="button" class="ps-2" id="zook-nav-two"><span>ZOEKEN</span><img src="./img/magnify.png" class="img-fluid"></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+</header>
+
+<!--breadcrumbs-->
+<div class="pt-3  bottom-border">
+    <div class="container crumb-dealer">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item" ><a href="#" class="text-decoration-none" style="color: #887973;font-size: 15px;">HOME</a></li>
+          <li class="breadcrumb-item"><a href="#" class="text-decoration-none" style="color: #887973;font-size: 15px;">ONZE PRODUCTEN</a></li>
+          <li class="breadcrumb-item" ><a href="#" class="text-decoration-none" style="color: #887973;font-size: 15px;">KARPETTEN</a></li>
+          <li class="breadcrumb-item"><a href="#" class="text-decoration-none" style="color: #5892aa;font-size: 15px;">BERMUDA</a></li>
+        </ol>
+      </nav>
+    </div>
+</div>
+
+
+<!--center-block-->
+
+<div class="container">
+    <h3 class="text-center mt-4" style="color:#887973;font-size:30px;">EEN LIFESTYLE-INTERIOR KARPET IS EEN KARPET VAN HOOGWAARDIGE KWALITEIT</h3>
+    <p class="text-center mt-4 ms-5 me-5" style="color:#505050;font-size:20px;font-family: Roboto;">
+        Onze collectie karpetten varieert in kleur en stijl en zijn op maat gemaakt leverbaar. 
+        In zomer en winter geeft een karpet sfeer in het interieur!
+    </p>
+</div>
+
+
+
+
+<!--cards-->
+<div class="container mb-4">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card mb-4 mb-lg-0" >
+              <div class="position-relative">
+                <img src="./img/card-1.png" class="card-img-top" alt="...">
+                <div class="d-flex flex-row justify-content-end">
+                <button type="button" class="" id="zook-btn-one">NAAM PRODUCT</button>
+                <button type="button" class="" id="zook-btn-two"><img src="./img/magnify.png" class="img-fluid"></button>
+              </div>
+            </div>
+                <div class="card-body ps-0">
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="row" style="color: #000;list-style: none;" >
+                                <li class="col-md-4 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">kleur:<span style="color: #5892aa;font-weight: normal;">12</span> </h3></li>
+                                <li class="col-md-8 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Poolgewicht: <span style="color: #5892aa;font-weight: normal;">2300 gr</span></h3></li>
+                                <li class="col-md-4 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Materiaal: <span style="color: #5892aa;font-weight: normal;">100% Polyester</span></h3></li>
+                                <li class="col-md-8 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Gewicht p/m²: <span style="color: #5892aa;font-weight: normal;">3800 gr</span></h3></li>
+                                <li class="col-md-4 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Hoogte:<span style="color: #5892aa;font-weight: normal;"> 60 mm</span></h3></li>
+                                <li class="col-md-8 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Rug:<span style="color: #5892aa;font-weight: normal;"> Katoen</span></h3></li>
+                            </ul>
+                        </div>
+                    </div>
+               <div class="card-top-border">
+                        <div class="row ">
+                        <div class="col-12">
+                         <ul class="row " style="color: #000;list-style: none;" >
+                                <li class="col-md-4 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Adviesprijs:<span style="color: #5892aa;font-weight: normal;"> vanaf € 00,00</span></h3></li>
+                                <li class="col-md-8 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;;color: #f48118;"><img src="./img/copy.png" class="img-fluid"> Bekijk prijstabel</h3></li>
+                            </ul>
+                        </div>
+                        </div>
+                      </div>
+                <button type="button" class="" id="zook-nav-three"><span style=" font-size: 20px;">ZOEK EEN DEALER BIJ U IN DE BUURT</span><img src="./img/arrow.png" class="img-fluid"></button>
+              </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card mb-4 mb-lg-0 ">
+                  <div class="position-relative">
+                    <img src="./img/card-2.png" class="card-img-top" alt="...">
+                    <div class="d-flex flex-row justify-content-end">
+                      <button type="button" class="" id="zook-btn-one">NAAM PRODUCT</button>
+                      <button type="button" class="" id="zook-btn-two"><img src="./img/magnify.png" class="img-fluid"></button>
+                    </div>
+                  </div>
+                    <div class="card-body ps-0">
+                      <p class="ps-3" style="color: #434343;font-size:15px;font-family: Roboto;"> Met duoshade kunt u spelen met licht, door een inventief systeem kunt u ieder gewenste lichtinval creëren. Het filtert op een mooie manier het daglicht en beschermt tegen de zon wanneer u dat nodig vindt. Tevens geeft het de mogelijkheid u privacy te geven wanneer u dat wenst. De duoshade wordt luxe afgewerkt met een boven en onder profiel, bekijk de verschillende kleuren bij een van onze dealers. </p>
+                      <button type="button" class="" id="zook-nav-three"><span style=" font-size: 20px;">ZOEK EEN DEALER BIJ U IN DE BUURT</span><img src="./img/arrow.png" class="img-fluid"></button>
+                  </div>
+                    </div>
+                  </div>
+               
+                  <div class="col-lg-4">
+                    <div class="card mb-4 mb-lg-0" >
+                      <div class="position-relative">
+                        <img src="./img/card-1.png" class="card-img-top" alt="...">
+                        <div class="d-flex flex-row justify-content-end">
+                        <button type="button" class="" id="zook-btn-one">NAAM PRODUCT</button>
+                        <button type="button" class="" id="zook-btn-two"><img src="./img/magnify.png" class="img-fluid"></button>
+                      </div>
+                    </div>
+                        <div class="card-body ps-0">
+                            <div class="row">
+                                <div class="col-12">
+                                    <ul class="row" style="color: #000;list-style: none;" >
+                                        <li class="col-md-4 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">kleur:<span style="color: #5892aa;font-weight: normal;">12</span> </h3></li>
+                                        <li class="col-md-8 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Poolgewicht: <span style="color: #5892aa;font-weight: normal;">2300 gr</span></h3></li>
+                                        <li class="col-md-4 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Materiaal: <span style="color: #5892aa;font-weight: normal;">100% Polyester</span></h3></li>
+                                        <li class="col-md-8 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Gewicht p/m²: <span style="color: #5892aa;font-weight: normal;">3800 gr</span></h3></li>
+                                        <li class="col-md-4 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Hoogte:<span style="color: #5892aa;font-weight: normal;"> 60 mm</span></h3></li>
+                                        <li class="col-md-8 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Rug:<span style="color: #5892aa;font-weight: normal;"> Katoen</span></h3></li>
+                                    </ul>
+                                </div>
+                                <div class="ps-5">
+                                  <img src="./img/col-4image.png" class="img-fluid">
+                                </div>
+                            </div>
+                           
+                       <div class="card-top-border-two">
+                                <div class="row ">
+                                <div class="col-12">
+                                 <ul class="row " style="color: #000;list-style: none;margin-top: 22px;" >
+                                        <li class="col-md-4 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Adviesprijs:<span style="color: #5892aa;font-weight: normal;"> vanaf € 00,00</span></h3></li>
+                                        <li class="col-md-8 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;;color: #f48118;"><img src="./img/copy.png" class="img-fluid"> Bekijk prijstabel</h3></li>
+                                    </ul>
+                                </div>
+                                </div>
+                                <button type="button" class="" id="zook-nav-three"><span style=" font-size: 20px;">ZOEK EEN DEALER BIJ U IN DE BUURT</span><img src="./img/arrow.png" class="img-fluid"></button>
+                              </div>
+                       
+                      </div>
+                        </div>
+                      </div>
+      </div>
+
+<div class="row">
+        <div class="col-lg-4">
+            <div class="card mb-4 mb-lg-0 mt-n20"  >
+              <div class="position-relative">
+                <img src="./img/card-1.png" class="card-img-top img-fluid" alt="...">
+                <div class="d-flex flex-row justify-content-end">
+                <button type="button" class="" id="zook-btn-one">NAAM PRODUCT</button>
+                <button type="button" class="" id="zook-btn-two"><img src="./img/magnify.png" class="img-fluid"></button>
+              </div>
+            </div>
+                <div class="card-body ps-0">
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="row" style="color: #000;list-style: none;" >
+                                <li class="col-md-4 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">kleur:<span style="color: #5892aa;font-weight: normal;">12</span> </h3></li>
+                                <li class="col-md-8 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Poolgewicht: <span style="color: #5892aa;font-weight: normal;">2300 gr</span></h3></li>
+                                <li class="col-md-4 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Materiaal: <span style="color: #5892aa;font-weight: normal;">100% Polyester</span></h3></li>
+                                <li class="col-md-8 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Gewicht p/m²: <span style="color: #5892aa;font-weight: normal;">3800 gr</span></h3></li>
+                                <li class="col-md-4 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Hoogte:<span style="color: #5892aa;font-weight: normal;"> 60 mm</span></h3></li>
+                                <li class="col-md-8 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Rug:<span style="color: #5892aa;font-weight: normal;"> Katoen</span></h3></li>
+                            </ul>
+                        </div>
+                    </div>
+               <div class="card-top-border">
+                        <div class="row ">
+                        <div class="col-12">
+                         <ul class="row " style="color: #000;list-style: none;" >
+                                <li class="col-md-4 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Adviesprijs:<span style="color: #5892aa;font-weight: normal;"> vanaf € 00,00</span></h3></li>
+                                <li class="col-md-8 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;;color: #f48118;"><img src="./img/copy.png" class="img-fluid"> Bekijk prijstabel</h3></li>
+                            </ul>
+                        </div>
+                        </div>
+                      </div>
+                <button type="button" class="" id="zook-nav-three"><span style=" font-size: 20px;">ZOEK EEN DEALER BIJ U IN DE BUURT</span><img src="./img/arrow.png" class="img-fluid"></button>
+              </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card  mb-4 mb-lg-0">
+                  <div class="position-relative">
+                    <img src="./img/card-2.png" class="card-img-top img-fluid" alt="...">
+                    <div class="d-flex flex-row justify-content-end">
+                      <button type="button" class="" id="zook-btn-one">NAAM PRODUCT</button>
+                      <button type="button" class="" id="zook-btn-two"><img src="./img/magnify.png" class="img-fluid"></button>
+                    </div>
+                  </div>
+                    <div class="card-body ps-0">
+                      <p class="ps-3" style="color: #434343;font-size:15px;font-family: Roboto;"> Met duoshade kunt u spelen met licht, door een inventief systeem kunt u ieder gewenste lichtinval creëren. Het filtert op een mooie manier het daglicht en beschermt tegen de zon wanneer u dat nodig vindt. Tevens geeft het de mogelijkheid u privacy te geven wanneer u dat wenst. De duoshade wordt luxe afgewerkt met een boven en onder profiel, bekijk de verschillende kleuren bij een van onze dealers. </p>
+                      <button type="button" class="" id="zook-nav-three"><span style=" font-size: 20px;">ZOEK EEN DEALER BIJ U IN DE BUURT</span><img src="./img/arrow.png" class="img-fluid"></button>
+                  </div>
+                    </div>
+                  </div>
+               
+                  <div class="col-lg-4">
+                    <div class="card mb-4 mb-lg-0" style="    margin-top: 22px;">
+                      <div class="position-relative">
+                        <img src="./img/card-1.png" class="card-img-top img-fluid" alt="...">
+                        <div class="d-flex flex-row justify-content-end">
+                        <button type="button" class="" id="zook-btn-one">NAAM PRODUCT</button>
+                        <button type="button" class="" id="zook-btn-two"><img src="./img/magnify.png" class="img-fluid"></button>
+                      </div>
+                    </div>
+                        <div class="card-body ps-0">
+                            <div class="row">
+                                <div class="col-12">
+                                    <ul class="row" style="color: #000;list-style: none;" >
+                                        <li class="col-md-4 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">kleur:<span style="color: #5892aa;font-weight: normal;">12</span> </h3></li>
+                                        <li class="col-md-8 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Poolgewicht: <span style="color: #5892aa;font-weight: normal;">2300 gr</span></h3></li>
+                                        <li class="col-md-4 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Materiaal: <span style="color: #5892aa;font-weight: normal;">100% Polyester</span></h3></li>
+                                        <li class="col-md-8 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Gewicht p/m²: <span style="color: #5892aa;font-weight: normal;">3800 gr</span></h3></li>
+                                        <li class="col-md-4 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Hoogte:<span style="color: #5892aa;font-weight: normal;"> 60 mm</span></h3></li>
+                                        <li class="col-md-8 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Rug:<span style="color: #5892aa;font-weight: normal;"> Katoen</span></h3></li>
+                                    </ul>
+                                </div>
+                                <div class="ps-5">
+                                  <img src="./img/col-4image.png" class="img-fluid">
+                                </div>
+                            </div>
+                           
+                       <div class="card-top-border-two">
+                                <div class="row ">
+                                <div class="col-12">
+                                 <ul class="row " style="color: #000;list-style: none;margin-top: 22px;" >
+                                        <li class="col-md-4 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;font-weight: bold;">Adviesprijs:<span style="color: #5892aa;font-weight: normal;"> vanaf € 00,00</span></h3></li>
+                                        <li class="col-md-8 col-lg-6"><h3 style="font-size:15px;font-family: Roboto;;color: #f48118;"><img src="./img/copy.png" class="img-fluid"> Bekijk prijstabel</h3></li>
+                                    </ul>
+                                </div>
+                                </div>
+                                <button type="button" class="" id="zook-nav-three"><span style=" font-size: 20px;">ZOEK EEN DEALER BIJ U IN DE BUURT</span><img src="./img/arrow.png" class="img-fluid"></button>
+                              </div>
+                       
+                      </div>
+                        </div>
+                      </div>
+      </div>
+</div>
+
+
+
+
+<!--pagination-->
+<div class="container mt-5 mb-5">
+  <div class="pagination">
+     <a href="#" id="prev" style="margin-right: 3px;">&laquo;</a>
+     <a href="#" id="prev">&lt;</a>
+     <a href="#" class="active">1</a>
+     <a href="#" class="">2</a>
+     <a href="#" class="">3</a>
+     <a href="#" class="">4</a>
+     <a href="#" class="">5</a>
+     <a href="#" id="next" >&gt;</a>
+     <a href="#" id="next" style="margin-left: 3px;">&raquo;</a>
+  
+  </div>
+</div>
+<!-- scripts -->
+<script src="./js/jquery.min.js"> </script>
+<script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $("ul.navbar-nav > li").click(function (e) {
+      $("ul.navbar-nav > li").removeClass("active");
+      $(this).addClass("active");
+    });
+  });
+</script>
+</body>
+</html>
